@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/skillstopractice/little_wheels
-  revision: 14fb34adacddf67c68785cd03ac849097118cf26
+  revision: d6b1a77f8cf4c8d9449e09121fd10aa38a04f27d
   specs:
-    little_wheels (0.0.5)
+    little_wheels (0.0.8)
 
 GEM
   remote: https://rubygems.org/
