@@ -82,6 +82,8 @@ GEM
     benchmark (0.4.0)
     bigdecimal (3.1.8)
     bindex (0.8.1)
+    boot_wheel (0.0.4)
+      little_wheels (= 0.0.10)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
     brakeman (6.2.2)
@@ -157,7 +159,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    little_wheels (0.0.8)
+    little_wheels (0.0.10)
     logger (1.6.1)
     loofah (2.23.1)
       crass (~> 1.0.2)
@@ -403,6 +405,7 @@ PLATFORMS
 
 DEPENDENCIES
   actioncable
+  boot_wheel (= 0.0.4)
   bootsnap
   brakeman
   capybara
@@ -411,7 +414,7 @@ DEPENDENCIES
   jbuilder
   kamal
   listen
-  little_wheels (= 0.0.8)
+  little_wheels
   lookbook (~> 2.3.4)
   propshaft
   puma (>= 5.0)
