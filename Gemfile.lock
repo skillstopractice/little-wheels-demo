@@ -157,7 +157,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    little_wheels (0.0.8)
+    little_wheels (0.0.9)
     logger (1.6.1)
     loofah (2.23.1)
       crass (~> 1.0.2)
@@ -411,7 +411,7 @@ DEPENDENCIES
   jbuilder
   kamal
   listen
-  little_wheels (= 0.0.8)
+  little_wheels (= 0.0.9)
   lookbook (~> 2.3.4)
   propshaft
   puma (>= 5.0)
